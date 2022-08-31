@@ -16,10 +16,15 @@ hr {
 .main-container {
     width: 80%;
     margin: 0 auto;
+
+
+}
+
+.section-container {
     /* border: 1px solid red; */
     background-color: white;
     padding: 10px 30px;
-
+    margin-bottom: 5px;
 }
 
 
@@ -73,4 +78,42 @@ hr {
 
 .purple {
     color: #562EFF;
+}
+
+.course img {
+    width: 266px;
+    height: 141px;
+}
+
+.tometo {
+    color: tomato;
+}
+
+
+.time {
+    color: red;
+    display: flex;
+}
+
+.image img {
+    height: 12px;
+    width: 12px;
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.star {
+    display: flex;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between
 }
